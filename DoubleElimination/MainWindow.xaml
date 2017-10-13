@@ -1,0 +1,14 @@
+﻿<Window x:Class="DoubleElimination.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DoubleElimination"
+        mc:Ignorable="d"
+        Title="Super Smash Bros. Bracket" Height="500" Width="750">
+    <Grid Background="Black">
+        <TextBox x:Name="Players" HorizontalAlignment="Left" Height="319" Margin="46,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"  AcceptsReturn="True" Background="#FFECE7E7" />
+        <Button x:Name="SubmitPlayers" Content="Submit" HorizontalAlignment="Left" Margin="46,396,0,0" VerticalAlignment="Top" Width="100" Height="29" Click="SubmitPlayers_Click"/>
+
+    </Grid>
+</Window>
